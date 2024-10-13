@@ -1,23 +1,22 @@
-nav {
-  background-color: #f8f9fa;
+.header {
+  display: flex;
+  align-items: center;
   padding: 10px;
+  background-color: #f8f9fa;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
+.logo {
+  width: 100px; /* Ширина логотипа */
+  height: auto; /* Автоматическая высота */
+  margin-right: 20px; /* Отступ справа */
 }
 
-nav li {
-  display: inline;
-  margin-right: 15px;
+nav {
+  display: flex;
+  gap: 15px; /* Отступы между ссылками */
 }
 
 nav a {
   text-decoration: none;
-  color: #007bff;
-}
-
-nav a:hover {
-  text-decoration: underline;
+  color: #007bff; /* Цвет ссылок */
 }

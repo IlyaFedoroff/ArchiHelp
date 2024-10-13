@@ -1,9 +1,11 @@
-<nav>
-  <ul>
-    <li><a routerLink="/">Главная</a></li>
-    <li><a routerLink="/user-profile">Профиль пользователя</a></li>
-    <li><a routerLink="/search-results">Результаты поиска</a></li>
-    <li><a routerLink="/support">Поддержка</a></li>
-  </ul>
-</nav>
+<div class="header">
+  <img src="logo.png" alt="Логотип" class="logo" />
+  <nav>
+    <a routerLink="/">Главная</a>
+    <a routerLink="/user-profile">Профиль</a>
+    <a routerLink="/search-results">Результаты поиска</a>
+    <a routerLink="/support">Поддержка</a>
+    <a routerLink="/login">Вход</a>
+  </nav>
+</div>
 <router-outlet></router-outlet>

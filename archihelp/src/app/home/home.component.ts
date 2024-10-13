@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { SearchService } from '../services/search.service';  // Сервис для поиска
 import { CommonModule } from '@angular/common';  // Импорт CommonModule
 import { FormsModule } from '@angular/forms';    // Импорт FormsModule
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })

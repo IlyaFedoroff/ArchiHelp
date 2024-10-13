@@ -31,3 +31,4 @@ E:\Study\5 семестр\ArchiHelp\ArchiHelpBackend\obj\Debug\net8.0\refint\Arc
 E:\Study\5 семестр\ArchiHelp\ArchiHelpBackend\obj\Debug\net8.0\ArchiHelpBackend.pdb
 E:\Study\5 семестр\ArchiHelp\ArchiHelpBackend\obj\Debug\net8.0\ArchiHelpBackend.genruntimeconfig.cache
 E:\Study\5 семестр\ArchiHelp\ArchiHelpBackend\obj\Debug\net8.0\ref\ArchiHelpBackend.dll
+E:\Study\5 семестр\ArchiHelp\ArchiHelpBackend\obj\Debug\net8.0\ArchiHelpBackend.sourcelink.json
