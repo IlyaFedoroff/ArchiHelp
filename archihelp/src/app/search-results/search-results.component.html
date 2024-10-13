@@ -1,0 +1,9 @@
+<section>
+  <h2>Результаты поиска</h2>
+  <ul>
+    <li *ngFor="let document of documents">
+      <h3>{{ document.title }}</h3>
+      <p>{{ document.description }}</p>
+    </li>
+  </ul>
+</section>
