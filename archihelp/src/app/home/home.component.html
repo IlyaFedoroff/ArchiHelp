@@ -1,0 +1,14 @@
+<section>
+  <h2>Поиск</h2>
+  <form (ngSubmit)="onSearch()">
+    <input type="text" [(ngModel)]="searchQuery" name="search" placeholder="Введите теги, слова или числа" />
+    <button type="submit">Найти</button>
+  </form>
+</section>
+
+<section *ngIf="searchResults && searchResults.length > 0">
+  <h3>Результаты поиска:</h3>
+  <ul>
+    <li *ngFor="let result of searchResults">{{ result.title }}</li>
+  </ul>
+</section>
