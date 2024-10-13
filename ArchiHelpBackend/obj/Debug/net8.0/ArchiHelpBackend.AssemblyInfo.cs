@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArchiHelpBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4a6654a573605b9eaf0d4465dad00dcf7741a3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3be5ce8b31522b8e90670f8ffdcc9ffcbdea5360")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArchiHelpBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArchiHelpBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
